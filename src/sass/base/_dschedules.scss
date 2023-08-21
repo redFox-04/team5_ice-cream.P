@@ -1,0 +1,26 @@
+@media screen and (max-width: 320px) {
+    .containerschedules {
+        border: 2px solid red;
+        height: 1308px;
+        width: 320px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .containerschedules {
+        border: 2px solid green;
+        height: 588px;
+        width: 768px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .containerschedules {
+        border: 2px solid blue;
+        height: 598px;
+        width: 1200px;
+        margin-top: 120px;
+    }
+}

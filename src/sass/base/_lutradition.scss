@@ -1,0 +1,26 @@
+@media screen and (max-width: 320px) {
+    .containertraditionr {
+        border: 2px solid red;
+        height: 2234px;
+        width: 320px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .containertraditionr {
+        border: 2px solid green;
+        height: 1654px;
+        width: 768px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .containertraditionr {
+        border: 2px solid blue;
+        height: 2040px;
+        width: 1200px;
+        margin-top: 60px;
+    }
+}
