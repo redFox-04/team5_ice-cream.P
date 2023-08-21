@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+@media screen and (max-width: 320px){
+    body{
+        height: 6711px;
+        width: 320px;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 321px){
+    body{
+        height: 3937px;
+        width: 768px;
+    }
+}
+@media screen and (min-width: 769px){
+    body{
+        height: 4853px;
+        width: 1200px;
+    }
+}
+p {
+    text-align: center;
+    font-size: 100px;
+}

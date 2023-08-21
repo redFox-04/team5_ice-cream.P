@@ -1,0 +1,23 @@
+@media screen and (max-width: 320px) {
+    .containerheader {
+        border: 2px solid red;
+        height: 502px;
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 321px) {
+    .containerheader {
+        border: 2px solid green;
+        height: 416px;
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .containerheader {
+        border: 2px solid blue;
+        height: 664px;
+        width: 1200px;
+    }
+}
